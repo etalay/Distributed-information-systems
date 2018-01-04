@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2017-01-06T10:58:27.379">
+<file name="H:\eclipse\eclipse_mars_JAVA\workspace\tpSir1\src\main\java\fr\sir\tpSir1\App.java">
+<violation beginline="9" endline="9" begincolumn="24" endcolumn="31" rule="UnusedPrivateField" ruleset="Unused Code Rules" package="fr.sir.tpSir1" class="App" variable="language" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'language'.
+</violation>
+<violation beginline="20" endline="23" begincolumn="17" endcolumn="17" rule="EmptyCatchBlock" ruleset="Basic Rules" package="fr.sir.tpSir1" class="App" method="calculer" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="H:\eclipse\eclipse_mars_JAVA\workspace\tpSir1\src\main\java\fr\sir\tpSir1\JXBusyLabelTest.java">
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="27" rule="UnusedImports" ruleset="Import Statement Rules" package="fr.sir.tpSir1" externalInfoUrl="http://pmd.sourceforge.net/rules/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.awt.FlowLayout'
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,24 @@
+<div>
+	IdP: <input type="text" ng-model='idPok'></br> Nom: <input
+		type="text" ng-model='nomPok'> <select ng-model="selected">
+		<option ng-repeat="poke in pokemons |filter:idPok |filter: nomPok">
+			{{poke.pokemon_species.name}} {{poke.entry_number}}</option>
+	</select>
+	<button ng-click="afficher()">Go</button>
+	<div>
+		<h3>partie 2: affichage des information en utilisant $watch</h3>
+		<strong style="color: blue">{{pokemonselected}}</strong>
+	</div>
+	<div>
+	    
+		 cliquer sur le bouton apres avoir selectionner: <strong style="color: red">{{pake2}}</strong>
+	</div>
+
+	<div>
+		<h3>partie 2: affichage des information en utilisant un service</h3>
+		id: {{pake.id}}</br> nom: {{pake.name}} </br>
+	</div>
+</div>
+
+
+

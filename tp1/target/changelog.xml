@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog>
+  
+<changeset datePattern="yyyyMMdd HH:mm:ss z" start="20161207 10:58:27 CET" end="20170107 10:58:27 CET">
+	<changelog-entry>
+		<date pattern="yyyy-MM-dd">2017-01-06</date>
+		<time pattern="HH:mm:ss">10:54:49</time>
+		<author><![CDATA[16009987 <16009987@e007m07.istic.univ-rennes1.fr>]]></author>
+		<file>
+			<action>added</action>
+			<name>g.xml</name>
+			<revision>396d76fc79ee494e2952dcafa5603fa70954ba60</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>pom.xml</name>
+			<revision>396d76fc79ee494e2952dcafa5603fa70954ba60</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>src/main/java/fr/sir/tpSir1/App.java</name>
+			<revision>396d76fc79ee494e2952dcafa5603fa70954ba60</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>src/main/java/fr/sir/tpSir1/JXBusyLabelTest.java</name>
+			<revision>396d76fc79ee494e2952dcafa5603fa70954ba60</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>src/main/java/fr/sir/tpSir1/codeMort.java</name>
+			<revision>396d76fc79ee494e2952dcafa5603fa70954ba60</revision>
+		</file>
+		<file>
+			<action>added</action>
+			<name>src/test/java/fr/sir/tpSir1/AppTest.java</name>
+			<revision>396d76fc79ee494e2952dcafa5603fa70954ba60</revision>
+		</file>
+		<msg><![CDATA[initial commit]]></msg>
+	</changelog-entry>
+</changeset>
+
+</changelog>
