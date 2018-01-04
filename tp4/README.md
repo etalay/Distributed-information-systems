@@ -172,12 +172,14 @@ public class PersonService {
 		tx.commit();
 	}
 ```
-Par défaut quand on met  localhost :8080/rest/home la méthode getAllHomes()est appelé qui est une méthode get ($GET) permettant de récupérer tous les maisons sous format Json « @produces(MediaType.APPLICATION8JSON)».
-Quand on rajoute un id après home comme : localhost :8080/rest/home/1 la méthode getHomeById est appelé pour récupérer une maison ayant un id égal 1.
-L’annotation @Pathparam("id") précise bien que l’id passé en url sera bien le paramètre de la fonction et aussi ici on récupère du json grâce à  @produces(MediaType.APPLICATION8JSON).
-La troisième  est de type delete @DELETE pour supprimer une maison ayant un id précis
-La dernière est de type POST @POST pour ajouter une maison, dans ce cas on doit fournir à la méthode addHome  une maison sous format JSON  « @consumes(MediaType.APPLICATION8JSON)».
+Par défaut quand on est sur localhost :8080/rest/home ,  la méthode "getAllHomes()" nous permet de récupérer tous les maisons sous format JSON.
+Quand on rajoute un id après cette url "localhost :8080/rest/home/1" la méthode "getHomeById" récupére la maison ayant un id égal à 1.
 
+L’annotation @Pathparam("id") précise bien que l’id saisi en url sera bien le paramètre de la fonction 
+
+La troisième  est de type delete @DELETE pour supprimer une maison ayant un id précis
+
+La dernière est de type POST @POST pour ajouter une maison, dans ce cas on doit fournir à la méthode "addHome" une maison sous format JSON.
 
 Pareil pour UserInfo.java .
 
